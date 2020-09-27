@@ -1,0 +1,10 @@
+body {
+	margin: 70px 150px ;
+	padding: 0px;
+	font-family: 'Spartan', sans-serif;
+	background-color: #f7ecec;
+}
+
+@media only screen and (max-width: 370px) {
+
+}
