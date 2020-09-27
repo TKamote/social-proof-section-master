@@ -6,7 +6,9 @@
 
 body {
 	display: flex;
+	box-sizing: border-box;
 	background-color: aliceblue;
+	padding: 10px;
 }
 
 div {
@@ -17,6 +19,7 @@ div {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		box-sizing: border-box;
 		background-color: aliceblue;
 	}
 	
@@ -27,11 +30,13 @@ div {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		box-sizing: border-box;
 	}
 	.ratings {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		box-sizing: border-box;
 	}
 	.contents {
 		display: flex;
@@ -42,18 +47,23 @@ div {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		box-sizing: border-box;
 	}
 	.customer {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		box-sizing: border-box;
 	}
 	.customer img {
+		box-sizing: border-box;
+		border-radius: 50px;
 
 	}
 	.customer-text {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		box-sizing: border-box;
 	}
 }
