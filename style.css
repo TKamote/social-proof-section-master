@@ -48,4 +48,12 @@ div {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
+	.customer img {
+
+	}
+	.customer-text {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
 }
