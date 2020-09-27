@@ -12,7 +12,7 @@ body {
 div {
 	border: solid 1px blue;	
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 640px) {
 	body {
 		display: flex;
 		flex-direction: column;
