@@ -1,10 +1,51 @@
-body {
-	margin: 70px 150px ;
-	padding: 0px;
+* {
+	margin: 0;
+	padding: 0;
 	font-family: 'Spartan', sans-serif;
-	background-color: #f7ecec;
 }
 
-@media only screen and (max-width: 370px) {
+body {
+	display: flex;
+	background-color: aliceblue;
+}
 
+div {
+	border: solid 1px blue;	
+}
+@media only screen and (max-width: 370px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		background-color: aliceblue;
+	}
+	
+	div {
+		border: solid 1px blue;	
+	}
+	.heading {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.ratings {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.contents {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.customer {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
 }
