@@ -8,7 +8,7 @@ body {
 	display: flex;
 	box-sizing: border-box;
 	background-color: aliceblue;
-	padding: 10px;
+	padding: 50px 10px;
 }
 
 div {
@@ -21,8 +21,8 @@ div {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		background-color: aliceblue;
+		padding: 50px 10px;
 	}
-	
 	div {
 		border: solid 1px blue;	
 	}
@@ -31,7 +31,13 @@ div {
 		flex-direction: column;
 		flex-wrap: wrap;
 		box-sizing: border-box;
+		text-align: center;
+		padding: 10px 10px 30px 10px;
 	}
+	.heading h1 {
+		padding: 40px;
+	}
+
 	.ratings {
 		display: flex;
 		flex-direction: column;
@@ -48,6 +54,10 @@ div {
 		flex-direction: column;
 		flex-wrap: wrap;
 		box-sizing: border-box;
+		background-color: hsl(300, 43%, 22%);
+		border-radius: 10px;
+		padding: 15px;
+		margin: 8px 0;
 	}
 	.customer {
 		display: flex;
@@ -65,5 +75,10 @@ div {
 		flex-direction: column;
 		flex-wrap: wrap;
 		box-sizing: border-box;
+		justify-content: center;
+		padding-left: 25px;
+		color: white;
 	}
-}
+	.customer-service {
+		color: hsl(300, 24%, 96%);
+	}
