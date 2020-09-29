@@ -25,7 +25,7 @@ body {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		text-align: center;
-		padding: 10px 10px 30px 10px;
+		padding: 10px 10px 15px 10px;
 	}
 	.heading h1 {
 		padding: 40px;
@@ -44,9 +44,9 @@ body {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		margin: 10px 0;
-		border: solid 2px rgb(51, 235, 51);
+		background-color: hsl(300, 24%, 96%);
 		border-radius: 8px;
-		height: 70px;
+		height: 90px;
 		justify-content: center;
 		align-content: center;
 	}
@@ -71,6 +71,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		margin: 0 10px;
 	}
 	.card {
 		display: flex;
@@ -102,6 +103,9 @@ body {
 		justify-content: center;
 		padding-left: 25px;
 		color: white;
+	}
+	.verified-buyer {
+		color: hsl(333, 80%, 67%);
 	}
 	.customer-service {
 		color: hsl(300, 24%, 96%);
